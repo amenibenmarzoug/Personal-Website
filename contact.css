@@ -1,0 +1,49 @@
+#contact{
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/b2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-form{
+  padding: 15px;
+}
+
+.form-control{
+  border-radius: 0 !important;
+  border: none !important;
+}
+::placeholder{
+  color: #999 !important;
+}
+
+.follow{
+  background: #fff;
+  padding: 10px;
+  margin: 15px;
+
+}
+.contact-info .fa{
+  margin: 10px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/*------footer-------*/
+.footer
+{
+  background: #fff;
+  height: 50px;
+  margin-top: 10px;
+  color: #000;
+  padding-top: 10px;
+}
+.fa-heart-o
+{
+  color: red;
+}

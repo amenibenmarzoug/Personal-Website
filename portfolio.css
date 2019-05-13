@@ -1,0 +1,178 @@
+
+/*---------header------*/
+header h1{
+  height: 8vh;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  animation: colorChange 2s infinite;
+
+}
+@keyframes colorChange{
+  0%{
+    color: crimson;
+  }
+  20%{
+    color: cornflowerblue;
+
+  }
+  40%{
+    color: darkred;
+
+  }
+  60%{
+    color: goldenrod;
+
+  }
+  80%{
+    color: indianred;
+
+  }
+  100%{
+    color:chartreuse;
+
+  }
+
+}
+
+/*-------Slider------------*/
+#slider{
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*---------skills et interests--------*/
+#skills
+{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/b2.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-top: 50px;
+
+}
+#skills h3{
+  text-align: center;
+  color: #efefef !important;
+  padding-bottom: 10px;
+}
+
+#skills h3::after{
+  background: #efefef;
+  content: '';
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+.skills-bar p
+{
+  margin-top: 20px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.row .col-md-4:hover{
+  background: #007bff;
+  cursor: pointer;
+  transition: 0.7s;
+}
+/*-------------Resume--------------*/
+
+.resume
+{
+
+  margin-top: -50px;
+  padding-top: 120px;
+  padding-bottom: 30px;
+  background: #f9f9f9;
+}
+.resume h3
+{
+  margin-bottom: 50px;
+}
+.timeline
+{
+  list-style-type: none;
+  position: relative;
+}
+.timeline:before
+{
+  content: '';
+  background-color: #555;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 2;
+}
+.timeline li
+{
+  margin-top: 20px;
+  margin-bottom: 20px
+  margin-left:20px;
+}
+.timeline li h4
+{
+  font-size: 20px;
+}
+.timeline li h4 span
+{
+  font-weight: bold;
+
+}
+.timeline li:before
+{
+  content: '';
+  background: #fff;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #000;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+
+}
+/*------download resume------*/
+
+.download .btn
+{
+  padding: 10px 25px 10px 25px;
+  margin: 5px;
+  margin-left: 45%;
+  
+  border-radius: 30px;
+  border: 2px solid #000;
+  background: #000;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.download .btn .fa
+{
+  margin-right: 10px;
+
+}
+/*------footer-------*/
+.footer
+{
+  background: #fff;
+  height: 50px;
+  margin-top: 50px;
+  color: #000;
+  padding-top: 10px;
+}
+.fa-heart-o
+{
+  color: red;
+}
